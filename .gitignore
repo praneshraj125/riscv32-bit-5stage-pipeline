@@ -1,0 +1,32 @@
+# Simulation outputs
+*.vcd
+*.vvp
+riscv_sim
+*.wdb
+*.vcd.gz
+
+# Vivado
+*.jou
+*.log
+*.str
+*.pb
+.Xil/
+xsim.dir/
+*.xpr
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.runs/
+webtalk*
+
+# ModelSim / Questa
+work/
+transcript
+vsim.wlf
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
