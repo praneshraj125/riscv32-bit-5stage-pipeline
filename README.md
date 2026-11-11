@@ -89,6 +89,3 @@ Run from the `sim/` folder: `instr_mem.v` loads `program.hex` using a relative p
 - The `errors` output is currently tied to 0; the testbench prints it but does not yet compare register or memory contents against expected values. Adding self-checking assertions would be a good next step.
 - Forwarding select encoding: `2'b10` = from EX/MEM, `2'b01` = from MEM/WB, `2'b00` = no forwarding.
 
-## License
-
-MIT, see [LICENSE](LICENSE).
